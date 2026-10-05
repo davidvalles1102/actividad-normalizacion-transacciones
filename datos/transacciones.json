@@ -1,0 +1,164 @@
+[
+  {
+    "transaction_id": "GPA-0001",
+    "amount": 100.0,
+    "currency": "USD",
+    "status": "completed",
+    "timestamp": "2026-01-15T10:30:00Z",
+    "customer_id": "CUST-001"
+  },
+  {
+    "transaction_id": "GPA-0002",
+    "amount": 50.0,
+    "currency": "EUR",
+    "status": "pending",
+    "timestamp": "2026-01-16T09:10:00Z",
+    "customer_id": "CUST-002"
+  },
+  {
+    "transaction_id": "GPA-0003",
+    "amount": 25.0,
+    "currency": "usd",
+    "status": "refunded",
+    "timestamp": "2026-01-17T14:05:00Z",
+    "customer_id": "CUST-003"
+  },
+  {
+    "id_transaccion": "CB-1001",
+    "monto_centavos": 20000,
+    "moneda": "USD",
+    "estado_cod": "C",
+    "fecha": "15/01/2026",
+    "cliente_id": "0001"
+  },
+  {
+    "id_transaccion": "CB-1002",
+    "monto_centavos": 30000,
+    "moneda": "GTQ",
+    "estado_cod": "P",
+    "fecha": "18/01/2026",
+    "cliente_id": "0002"
+  },
+  {
+    "id_transaccion": "CB-1003",
+    "monto_centavos": 40000,
+    "moneda": "HNL",
+    "estado_cod": "F",
+    "fecha": "19/01/2026",
+    "cliente_id": "0003"
+  },
+  {
+    "order_ref": "ORD-20260115-01",
+    "total": "$150.00",
+    "curr": "MXN",
+    "payment_status": "PAGADO",
+    "created_at": "2026-01-15 10:32:00",
+    "buyer_id": "CUST-055"
+  },
+  {
+    "order_ref": "ORD-20260116-02",
+    "total": "75.00",
+    "curr": "Pesos Mexicanos",
+    "payment_status": "EN PROCESO",
+    "created_at": "2026-01-16 11:00:00",
+    "buyer_id": "CUST-056"
+  },
+  {
+    "order_ref": "ORD-20260117-03",
+    "total": "1,000",
+    "curr": "MXN",
+    "payment_status": "DEVUELTO",
+    "created_at": "2026-01-17 12:00:00",
+    "buyer_id": "CUST-057"
+  },
+  {
+    "transaction_id": "GPA-9001",
+    "currency": "USD",
+    "status": "completed",
+    "timestamp": "2026-01-20T10:00:00Z",
+    "customer_id": "CUST-900"
+  },
+  {
+    "id_transaccion": "CB-9002",
+    "monto_centavos": -500,
+    "moneda": "USD",
+    "estado_cod": "C",
+    "fecha": "20/01/2026",
+    "cliente_id": "0900"
+  },
+  {
+    "order_ref": "ORD-9003",
+    "total": "no-disponible",
+    "curr": "MXN",
+    "payment_status": "PAGADO",
+    "created_at": "2026-01-20 10:00:00",
+    "buyer_id": "CUST-901"
+  },
+  {
+    "transaction_id": "GPA-9004",
+    "amount": 50.0,
+    "currency": "COP",
+    "status": "completed",
+    "timestamp": "2026-01-20T10:00:00Z",
+    "customer_id": "CUST-902"
+  },
+  {
+    "id_transaccion": "CB-9005",
+    "monto_centavos": 10000,
+    "moneda": "",
+    "estado_cod": "C",
+    "fecha": "20/01/2026",
+    "cliente_id": "0901"
+  },
+  {
+    "id_transaccion": "CB-9006",
+    "monto_centavos": 15000,
+    "moneda": "USD",
+    "estado_cod": "X",
+    "fecha": "20/01/2026",
+    "cliente_id": "0902"
+  },
+  {
+    "order_ref": "ORD-9007",
+    "total": "200.00",
+    "curr": "MXN",
+    "payment_status": "",
+    "created_at": "2026-01-20 10:00:00",
+    "buyer_id": "CUST-903"
+  },
+  {
+    "id_transaccion": "CB-9008",
+    "monto_centavos": 20000,
+    "moneda": "USD",
+    "estado_cod": "C",
+    "fecha": "31/02/2026",
+    "cliente_id": "0903"
+  },
+  {
+    "transaction_id": "GPA-9009",
+    "amount": 60.0,
+    "currency": "USD",
+    "status": "completed",
+    "timestamp": "2026/01/20",
+    "customer_id": "CUST-904"
+  },
+  {
+    "order_ref": "ORD-9010",
+    "total": "150.00",
+    "curr": "USD",
+    "payment_status": "PAGADO",
+    "created_at": "2026-01-20 10:00:00",
+    "buyer_id": ""
+  },
+  {
+    "amount": 75.0,
+    "currency": "USD",
+    "status": "completed",
+    "timestamp": "2026-01-20T10:00:00Z",
+    "customer_id": "CUST-905"
+  },
+  {
+    "foo": "bar",
+    "valor": 123
+  }
+]

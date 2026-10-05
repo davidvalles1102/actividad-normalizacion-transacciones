@@ -1,0 +1,38 @@
+{
+  "_nota": "Archivo de configuracion. Solo datos, sin logica: aqui se agregan monedas, estados o formatos de fecha nuevos sin tocar normalizacion.py.",
+
+  "monedas_soportadas": {
+    "USD": ["USD", "US$", "DOLAR", "DOLARES", "DOLARES AMERICANOS"],
+    "EUR": ["EUR", "EURO", "EUROS"],
+    "MXN": ["MXN", "PESO MEXICANO", "PESOS MEXICANOS"],
+    "GTQ": ["GTQ", "QUETZAL", "QUETZALES"],
+    "HNL": ["HNL", "LEMPIRA", "LEMPIRAS"]
+  },
+
+  "mapeo_estados": {
+    "gateway_pagos": {
+      "completed": "completada",
+      "pending": "pendiente",
+      "failed": "fallida",
+      "refunded": "reembolsada"
+    },
+    "core_bancario": {
+      "C": "completada",
+      "P": "pendiente",
+      "F": "fallida",
+      "R": "reembolsada"
+    },
+    "ecommerce_legacy": {
+      "PAGADO": "completada",
+      "EN PROCESO": "pendiente",
+      "RECHAZADO": "fallida",
+      "DEVUELTO": "reembolsada"
+    }
+  },
+
+  "formatos_fecha": {
+    "gateway_pagos": "%Y-%m-%dT%H:%M:%SZ",
+    "core_bancario": "%d/%m/%Y",
+    "ecommerce_legacy": "%Y-%m-%d %H:%M:%S"
+  }
+}
