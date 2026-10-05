@@ -2,6 +2,8 @@
 
 **Autor:** David Valles
 
+**Repositorio:** https://github.com/davidvalles1102/actividad-normalizacion-transacciones
+
 Sistema en Python que recibe transacciones provenientes de tres sistemas distintos (una pasarela de pagos, un core bancario legado y una plataforma de e-commerce legada), las normaliza a un esquema único, valida cada registro y permite explorarlas mediante un menú interactivo en consola.
 
 ## Contenido de la carpeta
